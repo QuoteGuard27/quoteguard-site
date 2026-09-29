@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QuoteGuard – Your email admin sorted, day and night</title>
+  <meta name="description" content="QuoteGuard is an email admin assistant for small trade businesses. It follows up quotes, chases invoices, asks for Google reviews and handles after-hours enquiries. Standard emails send automatically in wording you've signed off, and anything else comes to you first.">
+  <meta name="theme-color" content="#0f1b2d">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 2 4 6.5v8.2C4 22.3 9.1 28.2 16 30c6.9-1.8 12-7.7 12-15.3V6.5L16 2Z' fill='%230f1b2d'/%3E%3Cpath d='m10.5 16 4 4 7-8' fill='none' stroke='%23ff8a1f' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="wordmark" href="#top" aria-label="QuoteGuard home">
+        <svg class="wordmark-icon" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+          <path d="M16 2 4 6.5v8.2C4 22.3 9.1 28.2 16 30c6.9-1.8 12-7.7 12-15.3V6.5L16 2Z" fill="currentColor"/>
+          <path d="m10.5 16 4 4 7-8" fill="none" stroke="#ff8a1f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>Quote<strong>Guard</strong></span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="visually-hidden">Menu</span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#how-it-works">How it works</a></li>
+          <li><a href="#control">Your OK</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+        <!-- PLACEHOLDER: point to real booking link when available -->
+        <a class="btn btn-primary btn-sm" href="#book">Book a setup call</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">G'day, tradies. Email admin for small trade businesses</p>
+          <h1 id="hero-title">Your email admin sorted, day and night. <span class="accent">Nothing goes out in words you haven't OK'd.</span></h1>
+          <p class="lede">QuoteGuard follows up your quotes, chases invoices, asks for Google reviews and handles after-hours enquiries, so you win more jobs without doing paperwork at night. You sign off the wording once, then the standard emails send themselves.</p>
+          <div class="hero-actions">
+            <!-- PLACEHOLDER: point to real booking link when available -->
+            <a class="btn btn-primary" href="#book">Book a setup call</a>
+            <a class="btn btn-ghost" href="#how-it-works">See how it works</a>
+          </div>
+          <p class="hero-note">Built for sole traders and small teams (1–5 people) who run their business from Gmail.</p>
+        </div>
+
+        <div class="hero-visual">
+          <div class="mail-stack">
+          <article class="mail-card" aria-label="Example: an automatic quote follow-up, sent in wording the owner signed off at setup">
+            <header class="mail-head">
+              <span class="status-pill status-pill-sent"><span class="dot" aria-hidden="true"></span> Sent · approved template</span>
+              <span class="mail-tag">Quote follow-up 1 of 3 · after 24 hrs</span>
+            </header>
+            <dl class="mail-meta">
+              <div><dt>To</dt><dd>Sarah M.</dd></div>
+              <div><dt>Subject</dt><dd>Re: Your quote for the hot water system</dd></div>
+            </dl>
+            <div class="mail-body">
+              <p>Hi Sarah,</p>
+              <p>Just checking in on the quote I sent through yesterday. Happy to answer any questions, or tweak anything if needed.</p>
+              <p>Cheers,<br>Dave</p>
+              <p class="mail-optout">Rather not get follow-ups? Just let me know and I'll stop.</p>
+            </div>
+            <p class="mail-status">
+              <svg viewBox="0 0 20 20" aria-hidden="true" focusable="false"><path d="m5 10.5 3 3 7-7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              If Sarah replies, the follow-ups stop and her reply comes to you.
+            </p>
+          </article>
+          </div>
+          <p class="mail-caption">Example email. Sent automatically in wording you signed off at setup.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="section" id="features" aria-labelledby="features-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">What it does</p>
+          <h2 id="features-title">Five jobs off your plate</h2>
+          <p>The boring-but-important emails that slip when you're flat out on the tools.</p>
+        </div>
+
+        <ul class="feature-grid">
+          <li class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 5h16v11H8l-4 4V5Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M8 10h8M8 13h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Quote follow-up</h3>
+            <p>Up to 3 friendly emails on quotes that haven't been accepted: after 24 hours, 3 days and 7 days. Sent automatically in your approved wording, and stops as soon as the customer replies.</p>
+          </li>
+          <li class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M9 8h6M9 12h6M9 16h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Invoice chase</h3>
+            <p>Reminders 3 days before the due date, on the due date, and at 7 days overdue. Never threatens, never adds fees, then hands it back to you. Invoice disputes come straight to you.</p>
+          </li>
+          <li class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Review requests</h3>
+            <p>One polite Google review ask after every finished job, sent automatically. Same ask for everyone, no incentives, in line with Google's policy.</p>
+          </li>
+          <li class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>After-hours triage</h3>
+            <p>An automatic 'got your message' reply to night and weekend enquiry emails that gets the suburb and job details. Urgent jobs (burst pipe, flooding, no power, no hot water) get flagged to you straight away. The rest waits for the morning.</p>
+          </li>
+          <li class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="m4 7 8 6 8-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Missed-call follow-up</h3>
+            <p>When an email in your inbox has a caller's number (like a voicemail email or a forwarded note), QuoteGuard sends an email reply in your approved wording if it knows their address. If not, you get a call-back note.</p>
+          </li>
+          <li class="feature-card feature-card-cta">
+            <h3>Your wording, signed off once</h3>
+            <p>You OK the wording of each standard email at setup. Anything outside those comes to you first.</p>
+            <a class="text-link" href="#control">How you stay in control <span aria-hidden="true">→</span></a>
+          </li>
+        </ul>
+        <p class="addon-note">QuoteGuard is email only. Every one of these works through your Gmail inbox.</p>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="section section-tint" id="how-it-works" aria-labelledby="how-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">How it works</p>
+          <h2 id="how-title">Up and running in five steps</h2>
+        </div>
+        <ol class="steps steps-5">
+          <li class="step">
+            <span class="step-num" aria-hidden="true">1</span>
+            <h3>Connect</h3>
+            <p>Hook up Gmail, Google Calendar (read-only) and your Google review link.</p>
+          </li>
+          <li class="step">
+            <span class="step-num" aria-hidden="true">2</span>
+            <h3>Tell us how you work</h3>
+            <p>Your hours, what counts as urgent, your payment details and the tone you like.</p>
+          </li>
+          <li class="step">
+            <span class="step-num" aria-hidden="true">3</span>
+            <h3>Template sign-off</h3>
+            <p>Approve your wording once. You review and sign off each standard email before anything goes live.</p>
+          </li>
+          <li class="step">
+            <span class="step-num" aria-hidden="true">4</span>
+            <h3>Standard emails send themselves</h3>
+            <p>Quote follow-ups, invoice reminders, review requests, after-hours replies and missed-call replies go out automatically in your approved wording.</p>
+          </li>
+          <li class="step">
+            <span class="step-num" aria-hidden="true">5</span>
+            <h3>Everything else comes to you</h3>
+            <p>Real questions, price or dates, complaints, disputes and anything outside a template land with you first. Urgent jobs get flagged straight away.</p>
+          </li>
+        </ol>
+        <p class="steps-note">Want to see them in action first? Choose an optional first week where emails are drafted but not sent.</p>
+      </div>
+    </section>
+
+    <!-- TRUST -->
+    <section class="section trust" id="control" aria-labelledby="control-title">
+      <div class="container trust-inner">
+        <div class="trust-copy">
+          <p class="eyebrow eyebrow-light">You're always in control</p>
+          <h2 id="control-title">Nothing goes out in words you haven't OK'd.</h2>
+          <p>You sign off the wording of each standard email once, at setup. After that, those emails send automatically, and anything that needs a real answer comes to you first.</p>
+        </div>
+        <ul class="trust-list">
+          <li><span class="trust-icon ok" aria-hidden="true">✓</span><span><strong>Always comes to you first:</strong> answers to a customer's real questions, anything about price or dates, complaints, invoice disputes and anything outside a template.</span></li>
+          <li><span class="trust-icon ok" aria-hidden="true">✓</span><span><strong>Urgent jobs</strong> get flagged to you immediately.</span></li>
+          <li><span class="trust-icon ok" aria-hidden="true">✓</span><span><strong>Any customer reply</strong> stops the automated emails and hands the thread to you.</span></li>
+          <li><span class="trust-icon ok" aria-hidden="true">✓</span><span><strong>Every email has an opt-out line,</strong> and opt-outs are honoured straight away.</span></li>
+          <li><span class="trust-icon ok" aria-hidden="true">✓</span><span><strong>A pause switch,</strong> plus a <strong>digest</strong> of what was sent.</span></li>
+          <li><span class="trust-icon ok" aria-hidden="true">✓</span><span><strong>Optional first week</strong> where emails are drafted but not sent, so you can see them first.</span></li>
+          <li><span class="trust-icon no" aria-hidden="true">✕</span><span><strong>Never quotes prices, books jobs or changes amounts,</strong> and never threatens or adds fees when chasing invoices.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="section" id="pricing" aria-labelledby="pricing-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Pricing</p>
+          <h2 id="pricing-title">Simple pricing, no lock-in contracts</h2>
+          <p>All prices in AUD, + GST.</p>
+        </div>
+        <div class="pricing-grid">
+          <article class="price-card" aria-labelledby="plan-solo">
+            <h3 id="plan-solo">Solo</h3>
+            <p class="plan-for">For 1–2 people</p>
+            <p class="price"><span class="amount">$149</span><span class="per">/month + GST</span></p>
+            <p class="setup">+ $390 one-off setup + GST</p>
+            <ul class="plan-list">
+              <li>Quote follow-up</li>
+              <li>Invoice chase</li>
+              <li>Review requests</li>
+              <li>After-hours triage</li>
+              <li>Missed-call follow-up</li>
+              <li>Your wording, signed off at setup</li>
+              <li>Pause switch + digest of what was sent</li>
+            </ul>
+            <!-- PLACEHOLDER: point to real booking link when available -->
+            <a class="btn btn-outline btn-block" href="#book">Book a setup call</a>
+          </article>
+          <article class="price-card price-card-featured" aria-labelledby="plan-team">
+            <h3 id="plan-team">Team</h3>
+            <p class="plan-for">For 3–5 people</p>
+            <p class="price"><span class="amount">$249</span><span class="per">/month + GST</span></p>
+            <p class="setup">+ $590 one-off setup + GST</p>
+            <ul class="plan-list">
+              <li>Everything in Solo, plus:</li>
+              <li>Urgent alerts to an office admin too</li>
+              <li>Monthly 20-minute review call</li>
+            </ul>
+            <!-- PLACEHOLDER: point to real booking link when available -->
+            <a class="btn btn-primary btn-block" href="#book">Book a setup call</a>
+          </article>
+        </div>
+        <p class="refund-note"><strong>30-day refund on your first month.</strong> Not happy? Get your first month back within 30 days (setup fee is non-refundable).</p>
+      </div>
+    </section>
+
+    <!-- COMING SOON -->
+    <section class="section soon" id="coming-soon" aria-labelledby="coming-soon-title">
+      <div class="container soon-inner">
+        <div class="soon-copy">
+          <p class="soon-badge">Coming soon</p>
+          <h2 id="coming-soon-title">Phone calls, handled the QuoteGuard way</h2>
+          <p class="soon-lede">We're working on an optional QuoteGuard business phone number, so your calls can come through QuoteGuard too. Missed calls and voicemails will get followed up the same way as your emails, using wording you've OK'd.</p>
+          <ul class="soon-list">
+            <li>Follow up missed calls so fewer jobs slip through</li>
+            <li>Turn voicemails into follow-ups, with anything outside your templates coming to you first</li>
+            <li>Sent using wording you've OK'd</li>
+          </ul>
+          <!-- PLACEHOLDER: point to real booking link when available -->
+          <p class="soon-cta">Not available yet. Want to hear when it's ready? <a href="#book">Book a setup call</a></p>
+        </div>
+
+        <div class="soon-visual" role="img" aria-label="Illustration of a planned feature: a missed call gets a follow-up email sent in your approved wording. Not available yet.">
+          <div class="soon-phone" aria-hidden="true">
+            <svg viewBox="0 0 64 64" focusable="false">
+              <path d="M22.5 8.5c1.6 0 3 1 3.5 2.6l2.6 8.1c.4 1.4 0 2.9-1.1 3.9l-4.1 3.6c2.9 5.9 7.6 10.7 13.6 13.6l3.6-4.1c1-1.1 2.5-1.5 3.9-1.1l8.1 2.6c1.6.5 2.6 1.9 2.6 3.5V50c0 3-2.5 5.5-5.5 5.5C28.4 55.5 8.5 35.6 8.5 14 8.5 11 11 8.5 14 8.5h8.5Z" fill="currentColor"/>
+              <path d="m41 9 12 12M53 9 41 21" stroke="#ff8a1f" stroke-width="4.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="soon-mock" aria-hidden="true">
+            <div class="mock-row mock-missed">
+              <span class="mock-icon">
+                <svg viewBox="0 0 24 24" focusable="false"><path d="M8.4 3.5c.6 0 1.1.4 1.3 1l1 3c.2.5 0 1.1-.4 1.5L8.8 10.3a11 11 0 0 0 5 5l1.3-1.5c.4-.4 1-.6 1.5-.4l3 1c.6.2 1 .7 1 1.3v2.8c0 1.1-.9 2-2 2C10.4 20.5 3.5 13.6 3.5 5.5c0-1.1.9-2 2-2h2.9Z" fill="currentColor"/></svg>
+              </span>
+              <span><strong>Missed call</strong><small>Mark T. · left a voicemail</small></span>
+            </div>
+            <div class="mock-arrow">
+              <svg viewBox="0 0 24 24" focusable="false"><path d="M12 4v15m0 0-6-6m6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="mock-row mock-sent">
+              <span class="status-pill status-pill-sent"><span class="dot"></span> Sent · approved template</span>
+              <p class="mock-title">Follow-up email sent in your approved wording</p>
+              <p>Hi Mark, sorry I missed your call. What suburb are you in, and what's the job?</p>
+              <p class="mail-status">
+                <svg viewBox="0 0 20 20" focusable="false"><path d="m5 10.5 3 3 7-7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Any reply comes straight to you.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section-tint" id="faq" aria-labelledby="faq-title">
+      <div class="container container-narrow">
+        <div class="section-head">
+          <p class="eyebrow">FAQ</p>
+          <h2 id="faq-title">Fair questions</h2>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>Does it send emails without me?</summary>
+            <p>Only the standard ones, and only in wording you've signed off. At setup you review and OK the wording of each standard email once: quote follow-ups, invoice reminders, the Google review request, the after-hours 'got your message' reply and missed-call replies (when we know the caller's email address). After that, they send automatically. Answers to real questions, anything about price or dates, complaints, invoice disputes, anything outside a template and urgent jobs always come to you first. You get a pause switch and a digest of what was sent, and you can choose an optional first week where emails are drafted but not sent.</p>
+          </details>
+          <details>
+            <summary>Will it quote prices or book jobs for me?</summary>
+            <p>No. QuoteGuard never quotes prices, books jobs or changes amounts. Anything about price or dates comes to you first.</p>
+          </details>
+          <details>
+            <summary>Does it do SMS?</summary>
+            <p>Not yet. Today QuoteGuard is email only. Phone calls and texts are coming later as an optional add-on.</p>
+          </details>
+          <details>
+            <summary>Will it hassle my customers?</summary>
+            <p>No. Quote follow-ups are friendly and capped at 3, and any customer reply stops the automated emails and hands the thread to you. Invoice reminders never threaten or add fees, and after the last one it hands back to you. Review requests are one polite ask per finished job. Every email has an opt-out line, and opt-outs are honoured straight away.</p>
+          </details>
+          <details>
+            <summary>What do I need to get started?</summary>
+            <p>A Gmail account, Google Calendar (connected read-only) and your Google review link. Then tell us your hours, what counts as urgent, your payment details and the tone you like, and sign off the wording of your standard emails.</p>
+          </details>
+          <details>
+            <summary>Can I cancel?</summary>
+            <p>Yes. There are no lock-in contracts. Your first month is refundable within 30 days (the setup fee is non-refundable).</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / FINAL CTA -->
+    <section class="section cta" id="book" aria-labelledby="book-title">
+      <div class="container cta-inner">
+        <h2 id="book-title">Get your evenings back</h2>
+        <p>Book a setup call and we'll get QuoteGuard connected to your Gmail, set up the way you work, and your email wording signed off.</p>
+        <!-- PLACEHOLDER: replace with real booking link / contact email -->
+        <p class="placeholder-box">[Booking link / contact email coming soon]</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="wordmark wordmark-light" href="#top" aria-label="QuoteGuard home">
+        <svg class="wordmark-icon" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+          <path d="M16 2 4 6.5v8.2C4 22.3 9.1 28.2 16 30c6.9-1.8 12-7.7 12-15.3V6.5L16 2Z" fill="currentColor"/>
+          <path d="m10.5 16 4 4 7-8" fill="none" stroke="#ff8a1f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>Quote<strong>Guard</strong></span>
+      </a>
+      <p>© 2026 QuoteGuard</p>
+      <p>Prices in AUD, + GST</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
